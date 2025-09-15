@@ -1,13 +1,25 @@
-faiss-cpu
-sentence-transformers
-rank-bm25
-transformers
-torch
-pypdf
-python-docx
-pymupdf
-beautifulsoup4
-markdownify
-html2text
-requests
-pytest
+# Core numerical / utils
+numpy>=1.24
+
+# Vector index (CPU by default). If you have very large corpora + CUDA, consider faiss-gpu instead.
+faiss-cpu>=1.7.4
+
+# Embeddings
+sentence-transformers>=2.6.0
+
+# Lexical retrieval
+rank-bm25>=0.2.2
+
+# Reranker (Transformers)
+transformers>=4.42.0
+torch>=2.2.0
+
+# HTTP client for Ollama API fallback paths
+requests>=2.31.0
+
+# Document readers / parsing
+pypdf>=4.2.0
+python-docx>=1.1.0
+PyMuPDF>=1.24.0
+beautifulsoup4>=4.12.2
+markdownify>=0.12.1
