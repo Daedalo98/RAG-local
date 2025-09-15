@@ -1,0 +1,13 @@
+faiss-cpu
+sentence-transformers
+rank-bm25
+transformers
+torch
+pypdf
+python-docx
+pymupdf
+beautifulsoup4
+markdownify
+html2text
+requests
+pytest

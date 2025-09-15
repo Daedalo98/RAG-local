@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.log
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# RAG cache / indexes
+index/
+out/
+
+# Ollama / Models (large files)
+*.gguf
+*.bin
+*.safetensors
+
+# System
+.DS_Store
+*.swp
